@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.home {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* max-width: 1000px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home__continer {
+    width: 1600px!important;
+}
+
+.home__bg {
+    position: relative;
+    text-align: center;
+}
+
+.home__bg--bgImage {
+    width: 100%;
+    object-fit: contain;
+}
+
+.home__bg--brand {
+    font-family: 'Chilanka', cursive;
+    font-size: 108px;
+    font-weight: bolder;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.home__bg--tagline {
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 400;
+    color: black;
+    /* -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black; */
+
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.home__row {
+    display: flex;
+    flex-direction: row;
+}

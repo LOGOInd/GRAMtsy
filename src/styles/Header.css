@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: sticky;
+    margin-top: 12px;
+    z-index: 100;
+    margin-bottom: 10px;
+    top: 0;
+}
+
+.header__brand {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Chilanka', cursive;
+    left: 100px;
+    position: absolute;
+}
+
+.header__countryDropdown {
+    width: 100px !important ;
+    border: none;
+    font-size: 18px;
+    margin-right: 100px;
+    /* position: fixed; */
+}
+
+.header__search--autocomplete {
+    width: 35vw ;
+}
+.header__search--searchicon {
+    background-color: #4f4f4f;
+    color: #fff;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    font-size: 18px;
+    right: 0;
+    position: absolute;
+    padding-right: 30px;
+}
+.header__nav--option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.header__nav--option--lineTwo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__nav--option--shopping-cart-icon {
+    margin-top: 10px;
+}
+
