@@ -1,6 +1,6 @@
 # GRAMtsy - Goods Rental Management System
 
-## The project is Hosted ![here](https://logoind.github.io/GRAMtsy)
+## The project is Hosted [here](https://logoind.github.io/GRAMtsy)
 
 ## Summary:-
 The purpose of the Goods Rental Management system is to allow for storing details of a large number of electronic devices, electrical appliances, books and other types of goods that can be provided to customers on rental basis. The other kinds of goods solely depend on the administrator. The system should allow to add, search, rent, return facilities separately to administrator, owner and customer. Different privileges are given to different types of users.
