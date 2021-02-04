@@ -9,8 +9,8 @@
     margin-right: auto;
 }
 
-.home__continer {
-    width: 1600px!important;
+.home__container {
+    width: 100% !important;
 }
 
 .home__bg {
@@ -55,4 +55,5 @@
 .home__row {
     display: flex;
     flex-direction: row;
+    padding: 0 30px;
 }
