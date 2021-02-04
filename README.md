@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# GRAMtsy - Goods Rental Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The project is Hosted (here)[https://logoind.github.io/GRAMtsy]
 
-## Available Scripts
+## Summary:-
+The purpose of the Goods Rental Management system is to allow for storing details of a large number of electronic devices, electrical appliances, books and other types of goods that can be provided to customers on rental basis. The other kinds of goods solely depend on the administrator. The system should allow to add, search, rent, return facilities separately to administrator, owner and customer. Different privileges are given to different types of users.
+Types of Users:
+1. Administrators
+2. Managers
+3. Customers
 
-In the project directory, you can run:
+## The tasks that system will perform:
 
-### `yarn start`
+### Handling Type Classes:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Users: Administrator
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Description: 
+The users shall be able to create, edit, delete classes for types of goods.
 
-### `yarn test`
+Instances: 
+User creates a new class Laptop.
+User alters an existing class Books.
+User deletes an existing class Phones.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### Editing Stock:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users: Administrator, Manager
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Description: 
+The users will be able to add, edit and delete the stocks for existing classes. The deletion will not interfere with stocks already in rental progress with customers.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instances: 
+User adds a new book named ABC from XYZ publisher with quantity X.
+User reduces the stock of a book ABC to 5 from 10.
+A copy of XYZ book is rented by a customer. User reduces the stock of book XYZ to 0 from 10. This shall induce and display error to the user with reason specified.
 
-### `yarn eject`
+### Searching Stock:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Users: Administrator, Manager, Customers
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Description: 
+The users will be able to query and look in the existing goods. This functionality will be supported with a filter feature. Users will be able to narrow down their search with the filters.
+Information access will be different for each type of user.
+Administrator and Manager:- Access to all information on all goods.
+Customer:- Access to only availability and details like description, specifications, rate card and rental period of the good.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instances: 
+User views all products.
+User views all books.
+Customer views all iPhones.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Issuing the Goods:
 
-## Learn More
+Users: Customers
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Description:
+The user will be able to issue the goods, and will have to return them before the return time.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The features included in the goods issue and return system are as follows:
+Product id: This is a unique id through which the product can be tracked.
+Borrower: It is the person who will borro the product from the issuer.
+Issuer: The person who issues the product like the department.
+Date of issuing: It is the date that will be recorded on which the product will be issued.
+Date of return: It is the date on which the particular product will be returned.
+Fine: Extra amount received for the late return of the product.
 
-### Code Splitting
+### Returning the Rented Goods:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Users: Customers
 
-### Analyzing the Bundle Size
+Description:
+The user will have to return the goods rented to him/her in the desired duration decided at the time of issue. When a user returns a borrowed product back to the issuer/manager, the entry for his borrowing action must be updated with the date returned. Also for product entry; the number of available copies of that particular product must be incremented.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<hr />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
