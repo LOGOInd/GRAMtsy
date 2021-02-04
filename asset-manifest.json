@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/GRAMtsy/static/css/main.be741a2d.chunk.css",
+    "main.js": "/GRAMtsy/static/js/main.de5d594e.chunk.js",
+    "main.js.map": "/GRAMtsy/static/js/main.de5d594e.chunk.js.map",
+    "runtime-main.js": "/GRAMtsy/static/js/runtime-main.ccb1f400.js",
+    "runtime-main.js.map": "/GRAMtsy/static/js/runtime-main.ccb1f400.js.map",
+    "static/js/2.1e5db174.chunk.js": "/GRAMtsy/static/js/2.1e5db174.chunk.js",
+    "static/js/2.1e5db174.chunk.js.map": "/GRAMtsy/static/js/2.1e5db174.chunk.js.map",
+    "static/js/3.208165dd.chunk.js": "/GRAMtsy/static/js/3.208165dd.chunk.js",
+    "static/js/3.208165dd.chunk.js.map": "/GRAMtsy/static/js/3.208165dd.chunk.js.map",
+    "index.html": "/GRAMtsy/index.html",
+    "static/css/main.be741a2d.chunk.css.map": "/GRAMtsy/static/css/main.be741a2d.chunk.css.map",
+    "static/js/2.1e5db174.chunk.js.LICENSE.txt": "/GRAMtsy/static/js/2.1e5db174.chunk.js.LICENSE.txt",
+    "static/media/bg1.989d566b.jpg": "/GRAMtsy/static/media/bg1.989d566b.jpg",
+    "static/media/bg1.c8d9c810.png": "/GRAMtsy/static/media/bg1.c8d9c810.png",
+    "static/media/bg2.39d6744d.jpg": "/GRAMtsy/static/media/bg2.39d6744d.jpg",
+    "static/media/bg3.0e8ff213.jpg": "/GRAMtsy/static/media/bg3.0e8ff213.jpg",
+    "static/media/logo.6ce24c58.svg": "/GRAMtsy/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccb1f400.js",
+    "static/js/2.1e5db174.chunk.js",
+    "static/css/main.be741a2d.chunk.css",
+    "static/js/main.de5d594e.chunk.js"
+  ]
+}
